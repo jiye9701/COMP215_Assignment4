@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<!--Created by: Jiye Yu - Student Nr.:301116244 Created on July 23, 2020--->
+<html lang="en">
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Assignment4</title>
+<meta content="HTML table, COMP125" name="keywords">
+<meta content="assignment4 HTML tables." name="description">
+
+	<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+<link href="MembershipStyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id ="Whole" style="width:980px; margin-left:auto; margin-right:auto;">
+<header><h1 id="title">Member Registration</h1>
+</header>
+
+<nav><a href="Neworder.html">New order</a></nav>
+
+<h3>Please Complete all the fields below:</h3>
+
+<table>
+   <tr>
+       <td>
+       First Name:</td>
+       <td>
+       <input type="text" id="fname"><span id="fnamemsg"></span>
+       </td>
+   </tr>
+   <tr>
+       <td>
+       Last Name:</td>
+       <td>
+       <input type="text" id="lname"><span id="lnamemsg"></span>
+       </td>
+   </tr>
+   <tr>
+       <td>
+       Address:</td>
+       <td>
+           <input type="text" id="address"><span id="addressmsg"></span>
+       </td>
+   </tr>
+   <tr>
+       <td>
+       City:</td>
+       <td>
+           <input type="text" id="city"><span id="citymsg"></span>
+       </td>
+   </tr>
+   <tr>
+       <td>
+           Postal Code:</td>
+       <td>
+           <input type="text" id="postal_code"><span id="postal_codemsg"></span>
+       </td>
+   </tr>
+   <tr>
+       <td>
+           Province:</td>
+       <td><select name="province" id="province" style="width: 128px">
+			   <option></option>
+			   <option>QC</option>
+			   <option>ON</option>
+			   <option>MN</option>
+			   <option>SK</option>
+			   <option>AB</option>
+			   <option>BC</option>
+			   </select>		   <span id="provincemsg"></span>&nbsp;</td>
+   </tr>
+   <tr>
+       <td>
+           Age:</td>
+       <td>
+           <input type="text" id="age" ><span id="agemsg"></span>
+       </td>
+   </tr>
+   <tr>
+       <td>
+           Password:</td>
+       <td>
+           <input type="password" id="password"> <span id="passwordmsg"></span>
+       </td>
+   </tr>
+   <tr>
+       <td>
+           Confirm:</td>
+       <td>
+           <input type="password" id="confirm"><span id="confirmmsg"></span>
+       </td>
+   </tr>
+   <tr>
+       <td>
+           Email:</td>
+       <td>
+           <input type="text" id="email"><span id="emailmsg"></span>
+       </td>
+   </tr>
+   <tr>
+       <td>
+
+
+           <button id="register" onclick="validateForm()">Register Now</button>
+       </td>
+       <td>
+
+           <button id="clear" onclick="clearForm()">Clear Form</button>
+       </td>
+   </tr>
+</table>
+
+<footer><h6>
+	 &copy;Copyright 301116244 Jiye Yu - Assignment4 - Comp125
+	
+  </h6></footer>
+</div>
+
+    <script src="Membership.js"></script>
+</body>
+</html>

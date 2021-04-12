@@ -1,0 +1,24 @@
+﻿body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #DCF1EF;
+}
+
+h3 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h6 {
+	background-color: #44938E;
+
+}
+#title {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-weight: bold;
+	font-variant: small-caps;
+	background-color: #44938E;
+}
+#Whole {
+	width: 980px;
+	right: auto;
+	left: auto;
+	background-color: #CFE9E7;
+}

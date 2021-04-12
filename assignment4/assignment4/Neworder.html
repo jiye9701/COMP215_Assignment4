@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<!--Created by: Jiye Yu - Student Nr.:301116244 Created on July 24, 2020--->
+<html lang="en">
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>New order</title>
+<meta content="HTML table, COMP125" name="keywords">
+<meta content="Neworder HTML tables." name="description">
+
+	<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+<link href="NeworderStyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id ="Whole" style="width:980px; margin-left:auto; margin-right:auto;">
+	<header>
+      <h1 id="title">
+Lunch selections</h1>
+   </header>
+
+   <article>
+      <nav><a href="Membership.html">back</a></nav><h2>Menu</h2>
+      <form>
+         <input type="checkbox" id="item1" value="799" />
+         <label for="item1">Fried chicken ($7.99)&nbsp; </label>
+         <input type="checkbox" id="item2" value="999" />
+         <label for="item2">Fried halibut ($9.99)<br></label>
+         <input type="checkbox" id="item3" value="799" />
+         <label for="item3">Hamburger ($7.99)&nbsp;&nbsp;&nbsp; </label>
+         <input type="checkbox" id="item4" value="1299" />
+         <label for="item4">Grilled salmon ($12.99)</label>&nbsp;
+         <input type="checkbox" id="item5" value="599" />
+         <label for="item5">Side salad ($5.99)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+         &nbsp;<input type="button" value="Calculate" id="sButton" />
+      </form>
+      <br>
+      
+      <table>
+         <colgroup>
+            <col class="label" />
+            <col class="amount" />
+         </colgroup>
+         <tbody>
+            <tr>
+               <td>Item total</td>
+               <td>0.00</td>
+            </tr>
+            <tr>
+               <td>Tax</td>
+               <td>0.00</td>
+            </tr>
+            <tr>
+               <td>Total with tax</td>
+               <td>$0.00</td>
+            </tr>
+         </tbody>
+      </table>
+   </article>
+   
+
+
+<footer><h6>
+	 &copy;Copyright 301116244 Jiye Yu - Assignment4 - Comp125
+	
+  </h6></footer>
+
+ <script src="Neworder.js"></script>
+
+</body>
+</html>
